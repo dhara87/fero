@@ -12,7 +12,7 @@ collections:
       - { label: "Home", name: "title", widget: "string" }
       - { label: "Header Image", name: "header_image", widget: "image" }
       - { label: "Header Heading", name: "header_heading", widget: "string" }
-      - { label: "Header Content", name: "header_content", widget: "markdown" }
+      - { label: "Header Content", name: "header_content", widget: "string" }
      
   
    
