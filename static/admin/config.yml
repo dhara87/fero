@@ -13,6 +13,34 @@ collections:
       - { label: "Header Image", name: "header_image", widget: "image" }
       - { label: "Header Heading", name: "header_heading", widget: "string" }
       - { label: "Header Content", name: "header_content", widget: "string" }
+      - { label: "User Image", name: "user_image", widget: "image" }
+      - { label: "Users", name: "users", widget: "string" }
+      - { label: "User Heading", name: "user_heading", widget: "string" }
+      - { label: "Man Hours Image", name: "man_hours_image", widget: "image" }
+      - { label: "Man Hours", name: "man_hours", widget: "string" }
+      - { label: "Man Hours Title", name: "man_hours_title", widget: "string" }
+      - { label: "Automated Trips Image", name: "automated_trips_image", widget: "image" }
+      - { label: "Automated Trips", name: "automated_trips", widget: "string" }
+      - { label: "Automated Trips Title", name: "automated_trips_title", widget: "string" }
+      - { label: "Why Now Image", name: "why_now_image", widget: "image" }
+      - { label: "Why Choose Us Title", name: "why_choose_us_title", widget: "string" }
+      - { label: "Why Choose Us Content 1", name: "why_choose_us_content1", widget: "string" }
+      - { label: "Why Choose Us Content 2", name: "why_choose_us_content2", widget: "string" }
+      - { label: "Why Choose Us Content 3", name: "why_choose_us_content3", widget: "string" }
+      - { label: "Operations Image", name: "operations_image", widget: "image" }
+      - { label: "Data Image", name: "data_image", widget: "image" }
+      - { label: "Effeciency Image", name: "efficiency_image", widget: "image" }
+      - { label: "Cost Image", name: "cost_image", widget: "image" }
+      - { label: "Frame Image", name: "frame_image", widget: "image" }
+      - { label: "Why Now Youtube Link", name: "why_now_youtube_link", widget: "string" }
+      - { label: "Why Now Heading", name: "why_now_heading", widget: "string" }
+      - { label: "Why Now Content 1", name: "why_now_content1", widget: "string" }
+      - { label: "Why Now Content 2", name: "why_now_content2", widget: "string" }
+      - { label: "CEO Heading", name: "ceo_heading", widget: "string" }
+      - { label: "CEO Image", name: "ceo_image", widget: "image" }
+      - { label: "CEO Content", name: "ceo_content", widget: "string" }
+      - { label: "How We Do It Heading", name: "how_we_do_it_heading", widget: "string" }
+      - { label: "How We Do It Content 1", name: "how_we_do_it_content1", widget: "string" }
      
   
    

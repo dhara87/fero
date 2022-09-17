@@ -1,9 +1,41 @@
 ---
-title: Fero
-header_image: /images/home_page_1_hero.jpg
-header_heading: Intelligent software for business automation for logistics
-header_content: TiA, your software robot for logistics management serving the
-  needs of logistics, transportation and distribution professionals powered by
-  Robotic Process Automation (RPA) and AI.
+title: "Fero"
+header_image: "/images/home_page_1_hero.jpg"
+header_heading: "Intelligent software for business automation for logistics"
+header_content: "TiA, your software robot for logistics management serving the needs of logistics, transportation and distribution professionals powered by Robotic Process Automation (RPA) and AI."
+user_image: "/images/home_page_3_active_fero_users.png"
+users: "1,000+"
+user_heading: "Active Fero User"
+man_hours_image: "/images/home_page_2_freed_man_hours.png"
+man_hours: "100,000+"
+man_hours_title: "Freed Man-hours"
+automated_trips_image: "/images/home_page_4_trips_automated.png"
+automated_trips: "400,000+"
+automated_trips_title: "Automated Trips"
+why_now_image: "/images/home_page_9_why_now.gif"
+why_choose_us_title: "Why Choose Us"
+why_choose_us_content1: "When our team gets together, great things start to happen. We can solve incredibly
+complex problems and come up with unexpected yet genius solutions."
+why_choose_us_content2: "We have generated millions of dollars for our clients in savings."
+why_choose_us_content3: "We are always excited to help our customers understand how Robotic Automation Software and Artificial Intelligence can help their companies increase business efficiency, lower costs,
+reduce risks, and improve competitiveness."
+operations_image: "/images/home_page_5_operations.png"
+data_image: "/images/home_page_6_data.png"
+efficiency_image: "/images/home_page_7_efficiency.png"
+cost_image: "/images/home_page_8_cost.png"
+frame_image: "/images/home_page_frame.png"
+why_now_youtube_link: "https://www.youtube.com/embed/kLUfHXmqOfI"
+why_now_heading: "Why Now"
+why_now_content1: "Logistics has the highest growth rate of digitalization, but it is regarded as the least automated sector due to the complexity of the processes."
+why_now_content2: "As experts in business process automation, we create strategies for business optimization and develop technological solutions for streamline operation."
+ceo_heading: "“Exponential problems require exponential solutions.”"
+ceo_image: "/images/home_page_10_abhinav.png"
+ceo_content: "Abhinav Chaudhary, Founder and CEO"
+how_we_do_it_heading: ""
+how_we_do_it_content1: ""
+# meta description
+description: ""
+metakeywords: ""
+
 draft: false
 ---
