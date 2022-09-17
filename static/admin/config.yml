@@ -3,42 +3,42 @@ backend:
   branch: master
 media_folder: "static/images"
 collections:
-  - name: "Header" 
-    label: "Header"
-    folder: "content/header"
-    create: false
-    fields:
-      - { label: "Header Title", name: "title", widget: "string" }
-      - { label: "Header Name", name: "header_name", widget: "string" }
-      - { label: "Header Name French", name: "header_name_fr", widget: "string" }
+  # - name: "Header" 
+  #   label: "Header"
+  #   folder: "content/header"
+  #   create: false
+  #   fields:
+  #     - { label: "Header Title", name: "title", widget: "string" }
+  #     - { label: "Header Name", name: "header_name", widget: "string" }
+  #     - { label: "Header Name French", name: "header_name_fr", widget: "string" }
   
-  - name: "Footer" 
-    label: "Footer"
-    folder: "content/footer"
-    create: false
-    fields:
-      - { label: "Footer Title", name: "footer_title", widget: "string" }
-      - { label: "Footer About Us", name: "footer_about_us", widget: "string" }
-      - { label: "Footer About Us French", name: "footer_about_us_fr", widget: "string" }
-      - { label: "Footer About Us Text", name: "footer_about_us_text", widget: "string" }
-      - { label: "Footer About Us Text French", name: "footer_about_us_text_fr", widget: "string" }
-      - { label: "Footer Blog Title", name: "footer_blog_title", widget: "string" }
-      - { label: "Footer Blog Title French", name: "footer_blog_title_fr", widget: "string" }
-      - { label: "Footer Services", name: "footer_services", widget: "string" }
-      - { label: "Footer Services French", name: "footer_services_fr", widget: "string" }
-      - { label: "Footer Question Text", name: "footer_question_text", widget: "string" }
-      - { label: "Footer Question Text French", name: "footer_question_text_fr", widget: "string" }
-      - { label: "Footer Address", name: "footer_address", widget: "string" }
-      - { label: "Footer Address French", name: "footer_address_fr", widget: "string" }
+  # - name: "Footer" 
+  #   label: "Footer"
+  #   folder: "content/footer"
+  #   create: false
+  #   fields:
+  #     - { label: "Footer Title", name: "footer_title", widget: "string" }
+  #     - { label: "Footer About Us", name: "footer_about_us", widget: "string" }
+  #     - { label: "Footer About Us French", name: "footer_about_us_fr", widget: "string" }
+  #     - { label: "Footer About Us Text", name: "footer_about_us_text", widget: "string" }
+  #     - { label: "Footer About Us Text French", name: "footer_about_us_text_fr", widget: "string" }
+  #     - { label: "Footer Blog Title", name: "footer_blog_title", widget: "string" }
+  #     - { label: "Footer Blog Title French", name: "footer_blog_title_fr", widget: "string" }
+  #     - { label: "Footer Services", name: "footer_services", widget: "string" }
+  #     - { label: "Footer Services French", name: "footer_services_fr", widget: "string" }
+  #     - { label: "Footer Question Text", name: "footer_question_text", widget: "string" }
+  #     - { label: "Footer Question Text French", name: "footer_question_text_fr", widget: "string" }
+  #     - { label: "Footer Address", name: "footer_address", widget: "string" }
+  #     - { label: "Footer Address French", name: "footer_address_fr", widget: "string" }
 
   - name: "Home Page" 
     label: "Home Page"
-    folder: "content"
+    folder: "content/english"
     create: false
     fields:
       - { label: "Home Title", name: "title", widget: "string" }
-      - { label: "French Home Title", name: "title_fr", widget: "string" }
-      - { label: "Home Slider 3 Heading", name: "slider3_heading", widget: "string" }
+      - { label: "Header Image", name: "header_image", widget: "image" }
+      - { label: "Header Heading", name: "header_heading", widget: "string" }
       - { label: "French Home Slider 3 Heading", name: "slider3_heading_fr", widget: "string" }
       - { label: "Home Slider 3 Title", name: "slider3_title", widget: "string" }
       - { label: "French Home Slider 3 Title", name: "slider3_title_fr", widget: "string" }
