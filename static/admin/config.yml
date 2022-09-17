@@ -39,8 +39,8 @@ collections:
       - { label: "CEO Heading", name: "ceo_heading", widget: "string" }
       - { label: "CEO Image", name: "ceo_image", widget: "image" }
       - { label: "CEO Content", name: "ceo_content", widget: "string" }
-      - { label: "How We Do It Heading", name: "how_we_do_it_heading", widget: "string" }
-      - { label: "How We Do It Content 1", name: "how_we_do_it_content1", widget: "string" }
+      # - { label: "How We Do It Heading", name: "how_we_do_it_heading", widget: "string" }
+      # - { label: "How We Do It Content 1", name: "how_we_do_it_content1", widget: "string" }
      
   
    

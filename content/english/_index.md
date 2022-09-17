@@ -31,11 +31,11 @@ why_now_content2: "As experts in business process automation, we create strategi
 ceo_heading: "“Exponential problems require exponential solutions.”"
 ceo_image: "/images/home_page_10_abhinav.png"
 ceo_content: "Abhinav Chaudhary, Founder and CEO"
-how_we_do_it_heading: ""
-how_we_do_it_content1: ""
-# meta description
-description: ""
-metakeywords: ""
+# how_we_do_it_heading: ""
+# how_we_do_it_content1: ""
+# # meta description
+# description: ""
+# metakeywords: ""
 
 draft: false
 ---
