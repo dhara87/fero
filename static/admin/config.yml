@@ -33,7 +33,7 @@ collections:
 
   - name: "Home Page" 
     label: "Home Page"
-    folder: "content/english"
+    folder: "content/english/"
     create: false
     fields:
       - { label: "Home Title", name: "title", widget: "string" }
