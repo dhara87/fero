@@ -26,7 +26,7 @@ couriers_image: /images/home_page_15_couriers.jpg
 client_logo12: /images/customer_logo/gulf_cryo.png
 client_logo13: /images/customer_logo/gulftainer_automated_operation_powered_by_fero.png
 draft: false
-header_heading: Intelligent software for business automation for
+header_heading: Intelligent software for business automation for logistics
 user_heading: Active Fero User
 man_hours_image: /images/home_page_2_freed_man_hours.png
 automated_trips_image: /images/home_page_4_trips_automated.png
