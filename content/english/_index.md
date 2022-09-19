@@ -1,5 +1,4 @@
 ---
-<<<<<<< HEAD
 title: "Fero"
 header_image: "/images/home_page_1_hero.jpg"
 header_heading: "Intelligent software for business automation for logistics"
@@ -92,7 +91,6 @@ technologies_image12: "/images/solutions_by_technology/black_and_white/roamworks
 technologies_image13: "/images/solutions_by_technology/black_and_white/sap_integrated_with_fero.png"
 technologies_image14: "/images/solutions_by_technology/black_and_white/symphony_integrated_with_fero.png"
 # meta description
-=======
 title: Fero
 header_image: /images/home_page_1_hero.jpg
 header_content: TiA, your software robot for logistics management serving the
@@ -199,7 +197,6 @@ technologies_image11: /images/solutions_by_technology/black_and_white/pipedrive_
 technologies_image12: /images/solutions_by_technology/black_and_white/roamworks_integrated_with_fero.png
 technologies_image13: /images/solutions_by_technology/black_and_white/sap_integrated_with_fero.png
 technologies_image14: /images/solutions_by_technology/black_and_white/symphony_integrated_with_fero.png
->>>>>>> ab2b9eb9cf94417ad0c66395139b9e77a6a5b76a
 description: ""
 metakeywords: ""
 
