@@ -32,7 +32,7 @@ man_hours_image: /images/home_page_2_freed_man_hours.png
 automated_trips_image: /images/home_page_4_trips_automated.png
 automated_trips: 400,000+
 automated_trips_title: Automated Trips
-why_now_image: /images/home_page_9_why_now.gif
+why_now_image: https://images.pexels.com/photos/302743/pexels-photo-302743.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500
 data_image: /images/home_page_6_data.png
 cost_image: /images/home_page_8_cost.png
 frame_image: /images/home_page_frame.png
