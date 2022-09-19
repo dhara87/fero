@@ -39,9 +39,62 @@ collections:
       - { label: "CEO Heading", name: "ceo_heading", widget: "string" }
       - { label: "CEO Image", name: "ceo_image", widget: "image" }
       - { label: "CEO Content", name: "ceo_content", widget: "string" }
-      # - { label: "How We Do It Heading", name: "how_we_do_it_heading", widget: "string" }
-      # - { label: "How We Do It Content 1", name: "how_we_do_it_content1", widget: "string" }
-     
+      - { label: "How We Do It Heading", name: "how_we_do_it_heading", widget: "string" }
+      - { label: "How We Do It Content 1", name: "how_we_do_it_content1", widget: "string" }
+      - { label: "How We Do It Content 2", name: "how_we_do_it_content2", widget: "string" }
+      - { label: "Why Do We Do It Image", name: "why_do_we_do_it_image", widget: "image" }
+      - { label: "Solutions Heading", name: "solutions_heading", widget: "string" }
+      - { label: "Solutions Link Title", name: "solutions_link_title", widget: "string" }
+      - { label: "Transport Image", name: "transporters_image", widget: "image" }
+      - { label: "Transport Title", name: "transporters_title", widget: "string" }
+      - { label: "Distributors Image", name: "distributors_image", widget: "image" }
+      - { label: "Distributors Title", name: "distributors_title", widget: "string" }
+      - { label: "Manufactures Image", name: "manufacturers_image", widget: "image" }
+      - { label: "Manufactures Title", name: "manufacturers_title", widget: "string" }
+      - { label: "Couriers Image", name: "couriers_image", widget: "image" }
+      - { label: "Couriers Title", name: "couriers_title", widget: "string" }
+      - { label: "Ports Image", name: "ports_image", widget: "image" }
+      - { label: "Ports Title", name: "ports_title", widget: "string" }
+      - { label: "Global Image", name: "global_freight", widget: "image" }
+      - { label: "Global Title", name: "global_title", widget: "string" }
+      - { label: "Clients Heading", name: "clients_heading", widget: "string" }
+      - { label: "Clients Logo Image 1", name: "client_logo1", widget: "image" }
+      - { label: "Clients Logo Image 2", name: "client_logo2", widget: "image" }
+      - { label: "Clients Logo Image 3", name: "client_logo3", widget: "image" }
+      - { label: "Clients Logo Image 4", name: "client_logo4", widget: "image" }
+      - { label: "Clients Logo Image 5", name: "client_logo5", widget: "image" }
+      - { label: "Clients Logo Image 6", name: "client_logo6", widget: "image" }
+      - { label: "Clients Logo Image 7", name: "client_logo7", widget: "image" }
+      - { label: "Clients Logo Image 8", name: "client_logo8", widget: "image" }
+      - { label: "Clients Logo Image 9", name: "client_logo9", widget: "image" }
+      - { label: "Clients Logo Image 10", name: "client_logo10", widget: "image" }
+      - { label: "Clients Logo Image 11", name: "client_logo11", widget: "image" }
+      - { label: "Clients Logo Image 12", name: "client_logo12", widget: "image" }
+      - { label: "Clients Logo Image 13", name: "client_logo13", widget: "image" }
+      - { label: "Clients Logo Image 14", name: "client_logo14", widget: "image" }
+      - { label: "Clients Logo Image 15", name: "client_logo15", widget: "image" }
+      - { label: "Clients Logo Image 16", name: "client_logo16", widget: "image" }
+      - { label: "Clients Logo Image 17", name: "client_logo17", widget: "image" }
+      - { label: "Clients Logo Image 18", name: "client_logo18", widget: "image" }
+      - { label: "Clients Logo Image 19", name: "client_logo19", widget: "image" }
+      - { label: "Clients Logo Image 20", name: "client_logo20", widget: "image" }
+      - { label: "Clients Logo Image 21", name: "client_logo21", widget: "image" }
+      - { label: "Clients Logo Image 22", name: "client_logo22", widget: "image" }
+      - { label: "Technologies Heading", name: "technologies_heading", widget: "string" }
+      - { label: "Technologies Image 1", name: "technologies_image1", widget: "image" }
+      - { label: "Technologies Image 2", name: "technologies_image2", widget: "image" }
+      - { label: "Technologies Image 3", name: "technologies_image3", widget: "image" }
+      - { label: "Technologies Image 4", name: "technologies_image4", widget: "image" }
+      - { label: "Technologies Image 5", name: "technologies_image5", widget: "image" }
+      - { label: "Technologies Image 6", name: "technologies_image6", widget: "image" }
+      - { label: "Technologies Image 7", name: "technologies_image7", widget: "image" }
+      - { label: "Technologies Image 8", name: "technologies_image8", widget: "image" }
+      - { label: "Technologies Image 9", name: "technologies_image9", widget: "image" }
+      - { label: "Technologies Image 10", name: "technologies_image10", widget: "image" }
+      - { label: "Technologies Image 11", name: "technologies_image11", widget: "image" }
+      - { label: "Technologies Image 12", name: "technologies_image12", widget: "image" }
+      - { label: "Technologies Image 13", name: "technologies_image13", widget: "image" }
+      - { label: "Technologies Image 14", name: "technologies_image14", widget: "image" }
   
    
   

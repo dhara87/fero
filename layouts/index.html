@@ -175,20 +175,16 @@
   <div class="container">
     <div class="row justify-content-around">
       <div class="col-12 col-xl-5">
-        <h2 class="Dark-Heading-H2">How We Do It</h2>
-        <p class="Light-Dark-Paragraph-P2">We understand what it takes for Logistic Service providers to have successful
-          transformation and successful digitalization.</p>
-        <p class="Light-Dark-Paragraph-P2"> We look at how organizations can use artificial intelligence (AI) to make
-          better
-          use of their data and resources. AI allows the analysis of data and recognizes certain trends and patterns in
-          their operational processes.</p>
+        <h2 class="Dark-Heading-H2">{{ .Params.how_we_do_it_heading }}</h2>
+        <p class="Light-Dark-Paragraph-P2">{{ .Params.how_we_do_it_content1 }}</p>
+        <p class="Light-Dark-Paragraph-P2"> {{ .Params.how_we_do_it_content2 }}</p>
 
         <a href="about_rpa/index.html"><button type="button" class="btn btn-primary Common-Button-1">Learn
             More</button></a>
       </div>
 
       <div class="col-12 col-xl-6 text-center">
-        <img src="/images/home_page_11_why_do_we_do_it.png" class="img-fluid Why-Do-We-Do-It" />
+        <img src="{{ .Params.why_do_we_do_it_image }}" class="img-fluid Why-Do-We-Do-It" />
       </div>
     </div>
   </div>
@@ -198,47 +194,47 @@
   <div class="container">
 
     <div class="text-center">
-      <h2 class="Dark-Heading-H2 mb-3">Who can benefit from our solutions</h2>
+      <h2 class="Dark-Heading-H2 mb-3">{{ .Params.solutions_heading }}</h2>
       <a href="rpa_journey/index.html" class="Action-Link">
-        Learn more about how Fero RPA can optimize your business <i class="mdi mdi-chevron-right"></i>
+        {{ .Params.solutions_link_title }} <i class="mdi mdi-chevron-right"></i>
       </a>
     </div>
 
     <div class="row justify-content-lg-center mt-4 g-2 g-md-5 g-xl-4">
       <div class="col-6 col-lg-5 col-xl-4 col-xxl-auto">
         <div class="img-hover-zoom">
-          <img src="/images/home_page_12_3pl.jpg" class="img-fluid" />
-          <h4>3PL & Transporters</h4>
+          <img src="{{ .Params.transporters_image }}" class="img-fluid" />
+          <h4>{{ .Params.transporters_title }}</h4>
         </div>
       </div>
       <div class="col-6 col-lg-5 col-xl-4 col-xxl-auto ">
         <div class="img-hover-zoom">
-          <img src="/images/home_page_13_distributors.jpg" class="img-fluid" />
-          <h4>Distributors</h4>
+          <img src="{{ .Params.distributors_image }}" class="img-fluid" />
+          <h4>{{ .Params.distributors_title }}</h4>
         </div>
       </div>
       <div class="col-6 col-lg-5 col-xl-4 col-xxl-auto">
         <div class="img-hover-zoom">
-          <img src="/images/home_page_14_manufacturers.jpg" class="img-fluid" />
-          <h4>Manufacturers</h4>
+          <img src="{{ .Params.manufacturers_image }}" class="img-fluid" />
+          <h4>{{ .Params.manufacturers_title }}</h4>
         </div>
       </div>
       <div class="col-6 col-lg-5 col-xl-4 col-xxl-auto">
         <div class="img-hover-zoom">
-          <img src="/images/home_page_15_couriers.jpg" class="img-fluid" />
-          <h4>Couriers</h4>
+          <img src="{{ .Params.couriers_image }}" class="img-fluid" />
+          <h4>{{ .Params.couriers_title }}</h4>
         </div>
       </div>
       <div class="col-6 col-lg-5 col-xl-4 col-xxl-auto">
         <div class="img-hover-zoom">
-          <img src="/images/home_page_16_ports.jpg" class="img-fluid" />
-          <h4>Ports</h4>
+          <img src="{{ .Params.ports_image }}" class="img-fluid" />
+          <h4>{{ .Params.ports_title }}</h4>
         </div>
       </div>
       <div class="col-6 col-lg-5 col-xl-4 col-xxl-auto">
         <div class="img-hover-zoom">
-          <img src="/images/home_page_17_global_freight.jpg" class="img-fluid" />
-          <h4>Global Freight</h4>
+          <img src="{{ .Params.global_freight }}" class="img-fluid" />
+          <h4>{{ .Params.global_title }}</h4>
         </div>
       </div>
     </div>
@@ -250,106 +246,106 @@
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
-        <h1 class="Home-Page-Heading">Our Clients</h1>
+        <h1 class="Home-Page-Heading">{{ .Params.clients_heading }}</h1>
       </div>
       <div class="col-12">
         <section class="customer-logos slider">
           <div class="slide">
-            <img src="/images/customer_logo/ad_hotel_group_automation_by_fero.png" class="img-fluid"
+            <img src="{{ .Params.client_logo1 }}" class="img-fluid"
               alt="ad hotel group automation by fero" id="Image1" onclick="imageChange(event)" />
           </div>
           <div class="slide">
-            <img src="/images/customer_logo/adso.png" class="img-fluid"
+            <img src="{{ .Params.client_logo2 }}" class="img-fluid"
               alt="ad hotel group automation by fero" id="Image2" onclick="imageChange(event)" />
           </div>
           <div class="slide">
-            <img src="/images/customer_logo/black_pearl_ai_automated_by_fero.png" class="img-fluid"
+            <img src="{{ .Params.client_logo3 }}" class="img-fluid"
               alt="black pearl ai automated by fero" id="Image3" onclick="imageChange(event)" />
           </div>
           <div class="slide">
-            <img src="/images/customer_logo/bollore.png" class="img-fluid" alt="bollore" id="Image4"
+            <img src="{{ .Params.client_logo4 }}" class="img-fluid" alt="bollore" id="Image4"
               onclick="imageChange(event)" />
           </div>
           <div class="slide">
-            <img src="/images/customer_logo/century_express_automated_by_fero.png" class="img-fluid"
+            <img src="{{ .Params.client_logo5 }}" class="img-fluid"
               alt="century express automated by fero" id="Image5" onclick="imageChange(event)" />
           </div>
           <div class="slide">
-            <img src="/images/customer_logo/chefme.png" class="img-fluid" alt="chefme" id="Image6"
+            <img src="{{ .Params.client_logo6 }}" class="img-fluid" alt="chefme" id="Image6"
               onclick="imageChange(event)" />
           </div>
           <div class="slide">
-            <img src="/images/customer_logo/dsv.png" class="img-fluid" alt="century" id="Image7"
-              onclick="imageChange(event)" />
-          </div>
-
-          <div class="slide">
-            <img src="/images/customer_logo/emirates.png" class="img-fluid" alt="emirates" id="Image8"
+            <img src="{{ .Params.client_logo7 }}" class="img-fluid" alt="century" id="Image7"
               onclick="imageChange(event)" />
           </div>
 
           <div class="slide">
-            <img src="/images/customer_logo/fendale_automated_operation_by_fero.png" class="img-fluid"
+            <img src="{{ .Params.client_logo8 }}" class="img-fluid" alt="emirates" id="Image8"
+              onclick="imageChange(event)" />
+          </div>
+
+          <div class="slide">
+            <img src="{{ .Params.client_logo9 }}" class="img-fluid"
               alt="fendale automated operation by fero" id="Image9" onclick="imageChange(event)" />
           </div>
           <div class="slide">
-            <img src="/images/customer_logo/fgd.png" class="img-fluid"
+            <img src="{{ .Params.client_logo10 }}" class="img-fluid"
               alt="fendale automated operation by fero" id="Image10" onclick="imageChange(event)" />
           </div>
 
           <div class="slide">
-            <img src="/images/customer_logo/gsi.png" class="img-fluid"
+            <img src="{{ .Params.client_logo11 }}" class="img-fluid"
               alt="fendale automated operation by fero" id="Image11" onclick="imageChange(event)" />
           </div>
           <div class="slide">
-            <img src="/images/customer_logo/gulf_cryo.png" class="img-fluid" alt="gulf_cryo" id="Image12"
+            <img src="{{ .Params.client_logo12 }}" class="img-fluid" alt="gulf_cryo" id="Image12"
               onclick="imageChange(event)" />
           </div>
           <div class="slide">
-            <img src="/images/customer_logo/gulftainer_automated_operation_powered_by_fero.png"
+            <img src="{{ .Params.client_logo13 }}"
               class="img-fluid" alt="gulftainer automated operation powered by fero" id="Image13"
               onclick="imageChange(event)" />
           </div>
           <div class="slide">
-            <img src="/images/customer_logo/novatis_logo_fgd_distribution_automated_by_fero.png"
+            <img src="{{ .Params.client_logo14 }}"
               class="img-fluid" alt="novatis logo fgd distribution automated by fero" id="Image14"
               onclick="imageChange(event)" />
           </div>
           <div class="slide">
             <img
-              src="/images/customer_logo/perfetto_trading_llc_delivery_and_operation_automation_by_fero.png"
+              src="{{ .Params.client_logo15 }}"
               class="img-fluid" alt="perfetto trading llc delivery and operation automation by fero" id="Image15"
               onclick="imageChange(event)" />
           </div>
           <div class="slide">
-            <img src="/images/customer_logo/nespresso_perfetto_automation_by_fero.png" class="img-fluid"
+            <img src="{{ .Params.client_logo16 }}" class="img-fluid"
               alt="nespresso perfetto automation by fero" id="Image16" onclick="imageChange(event)" />
           </div>
           <div class="slide">
-            <img src="/images/customer_logo/petrochem_automated_operation_by_fero.png" class="img-fluid"
+            <img src="{{ .Params.client_logo17 }}" class="img-fluid"
               alt="petrochem automated operation by fero" id="Image17" onclick="imageChange(event)" />
           </div>
           <div class="slide">
-            <img src="/images/customer_logo/red_sea_geteway_terminal_ai_automation_by_fero.png"
+            <img src="{{ .Params.client_logo18 }}"
               class="img-fluid" alt="red sea geteway terminal ai automation by fero" id="Image18"
               onclick="imageChange(event)" />
           </div>
           <div class="slide">
-            <img src="/images/customer_logo/road_logistics_saudi_arabia_automation_powered_by_fero.png"
+            <img src="{{ .Params.client_logo19 }}"
               class="img-fluid" alt="road logistics saudi arabia automation powered by fero" id="Image19"
               onclick="imageChange(event)" />
           </div>
           <div class="slide">
-            <img src="/images/customer_logo/rsa.png" class="img-fluid"
+            <img src="{{ .Params.client_logo20 }}" class="img-fluid"
               alt="road logistics saudi arabia automation powered by fero" id="Image20" onclick="imageChange(event)" />
           </div>
 
           <div class="slide">
-            <img src="/images/customer_logo/sevenseas_automation_powered_by_fero.png" class="img-fluid"
+            <img src="{{ .Params.client_logo21 }}" class="img-fluid"
               alt="sevenseas automation powered by fero" id="Image21" onclick="imageChange(event)" />
           </div>
           <div class="slide">
-            <img src="/images/customer_logo/skyex.png" class="img-fluid" alt="skyex" id="Image22"
+            <img src="{{ .Params.client_logo22 }}" class="img-fluid" alt="skyex" id="Image22"
               onclick="imageChange(event)" />
           </div>
         </section>
@@ -395,70 +391,69 @@
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-12 text-center">
-        <h4>TiA is very adaptable and will work with any of your existing technologies, bond them together and
-          orchestrate collaborative workflow.</h4>
+        <h4>{{ .Params.technologies_heading }}</h4>
       </div>
       <div class="col-12 col-xl-10 mt-xl-5">
         <div class="row justify-content-center Images-Div">
           <div class="col-4 col-xl-3 d-flex justify-content-center align-items-center">
-            <img src="/images/solutions_by_technology/black_and_white/afsys_integrated_with_fero.png"
+            <img src="{{ .Params.technologies_image1 }}"
               class="img-fluid" />
           </div>
           <div class="col-4 col-xl-3 d-flex justify-content-center align-items-center">
             <img
-              src="/images/solutions_by_technology/black_and_white/cargowiseone_integrated_with_fero.png"
+              src="{{ .Params.technologies_image2 }}"
               class="img-fluid" />
           </div>
           <div class="col-4 col-xl-3 d-flex justify-content-center align-items-center">
-            <img src="/images/solutions_by_technology/black_and_white/dell_boomi_integrated_with_fero.png"
+            <img src="{{ .Params.technologies_image3 }}"
               class="img-fluid" />
           </div>
           <div class="col-4 col-xl-3 d-flex justify-content-center align-items-center">
-            <img src="/images/solutions_by_technology/black_and_white/infor_integrated_with_fero.png"
-              class="img-fluid" />
-          </div>
-          <div class="col-4 col-xl-3 d-flex justify-content-center align-items-center">
-            <img
-              src="/images/solutions_by_technology/black_and_white/jda_software_integrated_with_fero.png"
+            <img src="{{ .Params.technologies_image4 }}"
               class="img-fluid" />
           </div>
           <div class="col-4 col-xl-3 d-flex justify-content-center align-items-center">
             <img
-              src="/images/solutions_by_technology/black_and_white/location_solution_integrated_with_fero.png"
+              src="{{ .Params.technologies_image5 }}"
               class="img-fluid" />
           </div>
           <div class="col-4 col-xl-3 d-flex justify-content-center align-items-center">
             <img
-              src="/images/solutions_by_technology/black_and_white/microsoft_dynamics_integrated_with_fero.png"
-              class="img-fluid" />
-          </div>
-          <div class="col-4 col-xl-3 d-flex justify-content-center align-items-center">
-            <img src="/images/solutions_by_technology/black_and_white/navis_integrated_with_fero.png"
+              src="{{ .Params.technologies_image6 }}"
               class="img-fluid" />
           </div>
           <div class="col-4 col-xl-3 d-flex justify-content-center align-items-center">
             <img
-              src="/images/solutions_by_technology/black_and_white/newage_efreight_integrated_with_fero.png"
+              src="{{ .Params.technologies_image7 }}"
               class="img-fluid" />
           </div>
           <div class="col-4 col-xl-3 d-flex justify-content-center align-items-center">
-            <img src="/images/solutions_by_technology/black_and_white/oracle_integrated_with_fero.png"
+            <img src="{{ .Params.technologies_image8 }}"
               class="img-fluid" />
           </div>
           <div class="col-4 col-xl-3 d-flex justify-content-center align-items-center">
-            <img src="/images/solutions_by_technology/black_and_white/pipedrive_integrated_with_fero.png"
+            <img
+              src="{{ .Params.technologies_image9 }}"
               class="img-fluid" />
           </div>
           <div class="col-4 col-xl-3 d-flex justify-content-center align-items-center">
-            <img src="/images/solutions_by_technology/black_and_white/roamworks_integrated_with_fero.png"
+            <img src="{{ .Params.technologies_image10 }}"
               class="img-fluid" />
           </div>
           <div class="col-4 col-xl-3 d-flex justify-content-center align-items-center">
-            <img src="/images/solutions_by_technology/black_and_white/sap_integrated_with_fero.png"
+            <img src="{{ .Params.technologies_image11 }}"
               class="img-fluid" />
           </div>
           <div class="col-4 col-xl-3 d-flex justify-content-center align-items-center">
-            <img src="/images/solutions_by_technology/black_and_white/symphony_integrated_with_fero.png"
+            <img src="{{ .Params.technologies_image12 }}"
+              class="img-fluid" />
+          </div>
+          <div class="col-4 col-xl-3 d-flex justify-content-center align-items-center">
+            <img src="{{ .Params.technologies_image13 }}"
+              class="img-fluid" />
+          </div>
+          <div class="col-4 col-xl-3 d-flex justify-content-center align-items-center">
+            <img src="{{ .Params.technologies_image14 }}"
               class="img-fluid" />
           </div>
 
