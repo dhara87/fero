@@ -4,7 +4,7 @@ title: "Privacy Policy"
 page_header_bg: "images/banner/TeamBanner.jpg"
 types: "privacy policy"
 # meta description
-metadescription: "Performance & Load Testing, Penetration Testing, Deployment Architecture Review, Static Code Analysis"
+metadescription: ""
 # save as draft
 draft: false
 ---

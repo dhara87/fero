@@ -121,33 +121,33 @@ weight = 6
 
 #################### Services ################################
 [[Languages.en.menu.footer]]
-name = "Performance & Load Testing"
-URL = "performance-and-load-testing"
+name = ""
+URL = ""
 weight = 1
 
 [[Languages.en.menu.footer]]
-name = "Penetration Testing"
-URL = "penetration-testing"
+name = ""
+URL = ""
 weight = 2
 
 [[Languages.en.menu.footer]]
-name = "Deployment Architecture Review"
-URL = "deployment-architecture-review"
+name = ""
+URL = ""
 weight = 3
 
 [[Languages.en.menu.footer]]
-name = "Static Code Analysis"
-URL = "static-code-analysis"
+name = ""
+URL = ""
 weight = 4
 
 
 #################### default parameters ################################
 [params]
-logo = "images/logo.png"
+logo = "/images/fero.png"
 home = "Home"
 # Meta data
-description = "Performance and Load Testing, Penetration Testing, Deployment Architecture Review, Static Code Analysis"
-author = "Atcults"
+description = ""
+author = "Fero"
 # contact info
 # address1 = "3212 HERRADURA Dr Leander TX 78641 | USA"
 # address2= "201- 6821 ARCOLA STREET, BURNABY, BC, CANADA V5E 1H4"
@@ -186,9 +186,7 @@ link = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3670.655573908831!
 
   
 ############################# social site ########################
-[[params.quote]]
-name = "get a quote"
-link = "quote"
+
 
 [[params.privacypolicy]]
 name = "Privacy Policy"
@@ -197,17 +195,17 @@ link = "privacypolicy"
 [[params.social]]
 name = "facebook"
 icon = "fa-facebook" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
-link = "https://www.facebook.com/atcultspvtltd"
+link = ""
 
 [[params.social]]
 name = "twitter"
 icon = "fa-twitter" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
-link = "https://twitter.com/atcults"
+link = ""
 
 [[params.social]]
 name = "linkedin"
 icon = "fa-linkedin" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
-link = "https://www.linkedin.com/in/atcultsindia/"
+link = ""
 
 ################################### English language #####################################
 [Languages.en]
@@ -221,9 +219,9 @@ weight = 1
 
 
 # footer content
-footer_content = "We are a awward winning multinational company. We believe in quality and standard worldwide."
+footer_content = ""
 # copyright
-copyright = "© Copyright 2022 [Atcults](https://atcults.com/). All rights reserved "
+copyright = "© 2020 Fero.ai | All rights reserved"
 
 
 ################################### Deployment Script #####################################
