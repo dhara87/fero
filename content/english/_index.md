@@ -17,7 +17,7 @@ why_choose_us_content3: We are always excited to help our customers understand
   how Robotic Automation Software and Artificial Intelligence can help their
   companies increase business efficiency, lower costs reduce risks, and improve
   competitiveness.
-operations_image: /images/home_page_5_operations.png
+operations_image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwS70r6aZEg6-wofSf66x7MU7FiZSEFSOIQA&usqp=CAU
 efficiency_image: /images/home_page_7_efficiency.png
 why_now_heading: Why Now
 how_we_do_it_heading: How We Do It
