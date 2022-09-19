@@ -82,7 +82,7 @@ technologies_image3: "/images/solutions_by_technology/black_and_white/dell_boomi
 technologies_image4: "/images/solutions_by_technology/black_and_white/infor_integrated_with_fero.png"
 technologies_image5: "/images/solutions_by_technology/black_and_white/jda_software_integrated_with_fero.png"
 technologies_image6: "/images/solutions_by_technology/black_and_white/location_solution_integrated_with_fero.png"
-technologies_image7: "/images/solutions_by_technology/black_and_white microsoft_dynamics_integrated_with_fero.png"
+technologies_image7: "/images/solutions_by_technology/black_and_white/microsoft_dynamics_integrated_with_fero.png"
 technologies_image8: "/images/solutions_by_technology/black_and_white/navis_integrated_with_fero.png"
 technologies_image9: "/images/solutions_by_technology/black_and_white/newage_efreight_integrated_with_fero.png"
 technologies_image10: "/images/solutions_by_technology/black_and_white/oracle_integrated_with_fero.png"
