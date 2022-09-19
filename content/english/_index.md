@@ -4,7 +4,7 @@ header_image: /images/home_page_1_hero.jpg
 header_content: TiA, your software robot for logistics management serving the
   needs of logistics, transportation and distribution professionals powered by
   Robotic Process Automation (RPA) and AI.
-user_image: https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Instagram-Icon.png/640px-Instagram-Icon.png
+user_image: /static/images/home_page_2_freed_man_hours.png
 users: 1,000+
 man_hours: 100,000+
 man_hours_title: Freed Man-hours
